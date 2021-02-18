@@ -1,0 +1,1606 @@
+[
+  { "sheet": "Cohort", "name": "idno", "label": "BLSA ID", "source": "Cohort" },
+  {
+    "sheet": "Cohort",
+    "name": "id",
+    "label": "Sequential Participant ID",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "visitdate",
+    "label": "Date of Visit (1st day of Encounter)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "visityear",
+    "label": "Year of Visit",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "yearsfromv1",
+    "label": "Years Since Visit 1",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "yearsfromvprev",
+    "label": "Years Since PRevious Visit",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "visit",
+    "label": "Visit Number",
+    "source": "Cohort"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "visitseq",
+    "label": "Sequential Visit Number",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "numvisits",
+    "label": "Number of Visits",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "visittype",
+    "label": "Type of Visit",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "homevisit",
+    "label": "Home Visit Indicator",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "visitduration",
+    "label": "Visit Encounter Duration",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "laststatus",
+    "label": "Last Known Status",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "laststatusdate",
+    "label": "Date of Last Known Status",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cohort",
+    "name": "deathdate",
+    "label": "Date of Death",
+    "source": "Cohort"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "age",
+    "label": "Age at time of visit (years)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "brthyr",
+    "label": "Year of Birth",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "brthmo",
+    "label": "Month of Birth",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "baselineage",
+    "label": "Age at baseline visit (years)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "lastage",
+    "label": "Age at most recent visit (years)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "enrollyr",
+    "label": "Year of Enrollment",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "male",
+    "label": "Male Indicator",
+    "source": "Derived"
+  },
+  { "sheet": "Demographics", "name": "sex", "label": "Sex", "source": "Form" },
+  {
+    "sheet": "Demographics",
+    "name": "race",
+    "label": "Race Group",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "black",
+    "label": "Black Race Indicator",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "ethnicity",
+    "label": "Spanish Hispanic or Latino Ethnicity",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "maritalstatus",
+    "label": "Marital Status",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "householdsize",
+    "label": "Size of Household",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "housingtype",
+    "label": "Type of Housing",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "borninus",
+    "label": "Born in the United States",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "englishfirstlang",
+    "label": "English was First Language",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "education",
+    "label": "Years of Education",
+    "source": "Form"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "educ3cat",
+    "label": "Education Category (<HS, HS, HS+)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "educ5cat",
+    "label": "Education Category (5-Level)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Demographics",
+    "name": "eddegree",
+    "label": "Education in degree years",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "weight",
+    "label": "Weight (kg)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "weightloss",
+    "label": "Weight Loss Since Previous Visit (kg)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "intweightloss",
+    "label": "Intentional Weight Loss Since Previous Visit (kg)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "height",
+    "label": "Height (cm)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "bmi",
+    "label": "Body Mass Index (kg/m^2)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "upperwaistcirc",
+    "label": "Upper Waist Circumference (cm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "lowerwaistcirc",
+    "label": "Lower Waist Circumference (cm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "waistdiam",
+    "label": "Waist Diameter (cm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "waistdepth",
+    "label": "Waist Depth (cm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "bodytemp",
+    "label": "Oral Body Temperature (Fahrenheit)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "hipcirc",
+    "label": "Hip (buttocks) Circumference (cm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "tibialength",
+    "label": "Right Tibia Length (cm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "bicepskinfold",
+    "label": "Right Bicep Skinfold Thickness (cm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "sbp",
+    "label": "Systolic Blood Pressure (mmHg)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "dbp",
+    "label": "Diastolic Blood Pressure (mmHg)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "respirations",
+    "label": "Respirations (breaths/min)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "pulse",
+    "label": "Pulse (bpm)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "waisthip",
+    "label": "Waist-to-Hip Ratio",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Anthropometry",
+    "name": "waistheight",
+    "label": "Waist-to-Height Ratio",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "walkquartermile",
+    "label": "Difficulty/ease walking 1/4 mile",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "walkonemile",
+    "label": "Difficulty/ease walking 1 mile if no difficulty walking 1/4 mile",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "walkcapacity",
+    "label": "Walking ability summary score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "liftcarry10",
+    "label": "Difficulty/ease lifting/carrying 10 lbs",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "liftcarry20",
+    "label": "Difficulty/ease lifting/carrying 20 lbs if no difficulty lifting/carrying 10 lbs",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "liftcarrycapacity",
+    "label": "Lifting/carrying ability summary score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "stairs10",
+    "label": "Difficulty/ease walking up 10 steps",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "stairs20",
+    "label": "Difficulty/ease walking up 20 steps if no difficulty walking up 10 steps",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "stairscapacity",
+    "label": "Climbing stairs ability summary score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "handgripleft",
+    "label": "Hand grip muscles left (Kg)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "handgripright",
+    "label": "Hand grip muscles right (Kg)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "handgripmax",
+    "label": "Maximum hand grip (kg)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ldcwtime",
+    "label": "400 meter walk - time (seconds)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ldcwcompletion",
+    "label": "400 meter walk - completion flag",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ldcwlaps",
+    "label": "400 meter walk - distance completed if less than 400m (meters)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ldcwaid",
+    "label": "400 meter walk - walking aid use",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "upwdistance",
+    "label": "Usual pace walk - distance (meters)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "upwcompletion",
+    "label": "Usual pace walk - completion flag",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "upwpace",
+    "label": "Usual pace walk - pace (m/s)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "upwaid",
+    "label": "Usual pace walk - walking aid use",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "chairstandratio",
+    "label": "Expanded SPPB - chair stand ratio",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "gaitspeedratio",
+    "label": "Expanded SPPB - gait speed ratio",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "standbalanceratio",
+    "label": "Expanded SPPB - standing balance ratio",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "narrowwalkratio",
+    "label": "Expanded SPPB - narrow walk ratio",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "habcppb",
+    "label": "Expanded SPPB - score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "chairstandscore",
+    "label": "SPPB - chair stand score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "gaitspeedscore",
+    "label": "SPPB - gait speed score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "standbalancescore",
+    "label": "SPPB - standing balance score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "sppb",
+    "label": "SPPB - score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "rapidgaitspeed",
+    "label": "Rapid gait speed (m/s)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "usualgaitspeed",
+    "label": "Usual gait speed (m/s)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_trans",
+    "label": "ADL - any difficulty getting in and out of bed or chair",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADLH_trans",
+    "label": "ADL - need special equipment getting in and out of bed or chair",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_bathe",
+    "label": "ADL - any difficulty bathing or showering",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADLH_bathe",
+    "label": "ADL - need special equipment bathing or showering",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_dress",
+    "label": "ADL - any difficulty dressing",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADLH_dress",
+    "label": "ADL - need special equipment dressing",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_eat",
+    "label": "ADL - any difficulty eating",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADLH_eat",
+    "label": "ADL - need special equipment eating",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_toilet",
+    "label": "ADL - any difficulty using the toilet",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADLH_toilet",
+    "label": "ADL - need special equipment using the toilet",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_walk",
+    "label": "ADL - any difficulty walking across a small room",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADLH_walk",
+    "label": "ADL - need special equipment walking across a small room",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_Total",
+    "label": "ADL - total score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_NMiss",
+    "label": "ADL - number missing",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "ADL_Number",
+    "label": "ADL - number with any difficulty (if all non-missing)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "WKINDEXa",
+    "label": "ADL - Difficulty walk quarter mile",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "WKINDEXb",
+    "label": "ADL - Difficulty walking one mile",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "WKINDEX",
+    "label": "ADL - Walking capacity summary score",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "STINDEXa",
+    "label": "ADL - Difficulty walking up 10 steps",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "STINDEXb",
+    "label": "ADL - Difficulty walking up 20 steps",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "STINDEX",
+    "label": "ADL - Climbing stairs capacity summary score",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "LCINDEXa",
+    "label": "ADL - Difficulty lifting/carrying 10 lbs",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "LCINDEXb",
+    "label": "ADL - Difficulty lifting/carrying 20 lbs",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "LCINDEX",
+    "label": "ADL - Lifting/carrying capacity summary score",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadllightwork",
+    "label": "IADL - any difficulty doing light housework",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontlightwork",
+    "label": "IADL - do not do light housework for health-related reasons",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadlheavywork",
+    "label": "IADL - any difficulty doing heavy housework",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontheavywork",
+    "label": "IADL - do not do heavy housework for health-related reasons",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadlmeal",
+    "label": "IADL - any difficulty preparing own meals",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontmeal",
+    "label": "IADL - do not prepare meals for health-related reasons",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadlshop",
+    "label": "IADL - any difficulty shopping for personal items",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontshop",
+    "label": "IADL - do not shop for health-related reasons",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadlphone",
+    "label": "IADL - any difficulty using the telephone",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontphone",
+    "label": "IADL - do not use the telephone for health-related reasons",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadlmeds",
+    "label": "IADL - any difficulty taking medication",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontmeds",
+    "label": "IADL - do not take medication for health-related reasons",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadlmoney",
+    "label": "IADL - any difficulty managing money",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontmoney",
+    "label": "IADL - do not manage money for health-related reasons",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldrive",
+    "label": "IADL - any difficulty driving",
+    "source": "Form"
+  },
+  {
+    "sheet": "Physical Function",
+    "name": "iadldontdrive",
+    "label": "IADL - primary reason do not drive",
+    "source": "Form"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalfruit",
+    "label": "Total fruit (servings/day)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalvegetable",
+    "label": "Total vegetable (servings/day)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "ls7fruitveg",
+    "label": "Fruit and vegetable component of Healthy Diet Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalwholegrain",
+    "label": "Total fiber-rich whole grain (servings/day)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "ls7wholegrain",
+    "label": "Fiber-rich whole grain component of Healthy Diet Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalfish",
+    "label": "Total fish (servings/week)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "ls7fish",
+    "label": "Fish component of Healthy Diet Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "ls7sodium",
+    "label": "Sodium component of Healthy Diet Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalsweetenedbev",
+    "label": "Total sweetened beverages (servings/week)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "ls7sweetenedbev",
+    "label": "Sweetened beverage component of Healthy Diet Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "ls7healthydietscore",
+    "label": "LS7 Healthy Diet Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalfat",
+    "label": "Percent energy from total fat",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "satfat",
+    "label": "Percent energy from saturated fat",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalpro",
+    "label": "Percent energy from total protein",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "dchol",
+    "label": "Total cholesterol intake (mg)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "dfiber",
+    "label": "Total Fiber intake (g)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "dmg",
+    "label": "Magnesium intake (mg)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "dcalcium",
+    "label": "Calcium intake (mg)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "dpotassium",
+    "label": "Potassium intake (mg)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "dsodium",
+    "label": "Sodium intake (mg)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "mdash",
+    "label": "DASH diet score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "mdashadherent",
+    "label": "DASH diet adherence",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalcarb",
+    "label": "Percent energy from carbohydrates",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "totalenergy",
+    "label": "Total Energy intake",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "mufa",
+    "label": "Percent energy from monounsaturated fatty acids",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Nutrition",
+    "name": "pufa",
+    "label": "Percent energy from polyunsaturated fatty acids",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "ogttdate",
+    "label": "OGTT Date",
+    "source": "Form"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "ogttyear",
+    "label": "OGTT Year",
+    "source": "Form"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "gluload",
+    "label": "Sugar concentration for OGTT (grams)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "sample_dilution",
+    "label": "Diluation factor",
+    "source": "Form"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose0_1964",
+    "label": "Fasting Glucose 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose5_1964",
+    "label": "OGTT Glucose at 5-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose10_1964",
+    "label": "OGTT Glucose at 10-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose15_1964",
+    "label": "OGTT Glucose at 15-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose20_1964",
+    "label": "OGTT Glucose at 20-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose40_1964",
+    "label": "OGTT Glucose at 40-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose60_1964",
+    "label": "OGTT Glucose at 60-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose80_1964",
+    "label": "OGTT Glucose at 80-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose100_1964",
+    "label": "OGTT Glucose at 100-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose120_1964",
+    "label": "OGTT Glucose at 120-mins 1964-1977 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose0_1977",
+    "label": "Fasting Glucose 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose5_1977",
+    "label": "OGTT Glucose at 5-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose10_1977",
+    "label": "OGTT Glucose at 10-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose15_1977",
+    "label": "OGTT Glucose at 15-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose20_1977",
+    "label": "OGTT Glucose at 20-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose40_1977",
+    "label": "OGTT Glucose at 40-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose60_1977",
+    "label": "OGTT Glucose at 60-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose80_1977",
+    "label": "OGTT Glucose at 80-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose100_1977",
+    "label": "OGTT Glucose at 100-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose120_1977",
+    "label": "OGTT Glucose at 120-mins 1977-2000 (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose0_2001",
+    "label": "Fasting Glucose 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose5_2001",
+    "label": "OGTT Glucose at 5-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose10_2001",
+    "label": "OGTT Glucose at 10-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose15_2001",
+    "label": "OGTT Glucose at 15-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose20_2001",
+    "label": "OGTT Glucose at 20-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose40_2001",
+    "label": "OGTT Glucose at 40-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose60_2001",
+    "label": "OGTT Glucose at 60-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose80_2001",
+    "label": "OGTT Glucose at 80-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose100_2001",
+    "label": "OGTT Glucose at 100-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose120_2001",
+    "label": "OGTT Glucose at 120-mins 2001-current (m/dl)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose0",
+    "label": "Fasting Glucose calibrated (m/dl)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose0_3cat",
+    "label": "OGTT Glucose Categorization at 0-mins, calibrated (Norm, At Risk, Diab)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose20",
+    "label": "OGTT Glucose at 20-mins calibrated (m/dl)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose40",
+    "label": "OGTT Glucose at 40-mins calibrated (m/dl)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose60",
+    "label": "OGTT Glucose at 60-mins calibrated (m/dl)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose80",
+    "label": "OGTT Glucose at 80-mins calibrated (m/dl)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose100",
+    "label": "OGTT Glucose at 100-mins calibrated (m/dl)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose120",
+    "label": "OGTT Glucose at 120-mins calibrated (m/dl)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose120_3cat",
+    "label": "OGTT Glucose Categorization at 120-mins, calibrated (Norm, At Risk, Diab)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin0",
+    "label": "OGTT Insulin at 0-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin5",
+    "label": "OGTT Insulin at 5-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin10",
+    "label": "OGTT Insulin at 10-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin15",
+    "label": "OGTT Insulin at 15-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin20",
+    "label": "OGTT Insulin at 20-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin40",
+    "label": "OGTT Insulin at 40-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin60",
+    "label": "OGTT Insulin at 60-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin80",
+    "label": "OGTT Insulin at 80-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin100",
+    "label": "OGTT Insulin at 100-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "insulin120",
+    "label": "OGTT Insulin at 120-mins (\u00b5U/ml)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "hba1c",
+    "label": "Plasma Hemoglobin HbA1c (%)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "hba1c3cat",
+    "label": "Plasma Hemoglobin HbA1c (%) Categorization (Norm, At Risk, Diab)",
+    "source": "Instrument"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "diabhx",
+    "label": "Self-Reported History of Diabetes (Y/N)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucosemeds",
+    "label": "Self-Reported Glucose Medication Use (Y/N)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "glucose3cat",
+    "label": "Diabetes Categorization (Norm, At Risk, Diab)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Glucose",
+    "name": "diab3cat",
+    "label": "Diabetes Categorization (Norm, At Risk, Diab)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "mmse",
+    "label": "Mini-Mental State Examination (MMSE) Total",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "mmseprorated",
+    "label": "Mini-Mental State Examination (MMSE) Prorated Total",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "wrat",
+    "label": "Wide Range Achievement Test (WRAT) Total",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "digitspanfwd",
+    "label": "WAIS-R Digit Span Forward Traditional Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "digitspanfwdmax",
+    "label": "WAIS-R Digit Span Forward Maximum Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "digitspanbkwd",
+    "label": "WAIS-R Digits Span Backward Traditional Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "digitspanbkwdmax",
+    "label": "WAIS-R Digits Span Backward Maximum Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "pmavocab",
+    "label": "PMA Vocabulary",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "bvrt",
+    "label": "Benton Visual Retention Test",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "cvlt1",
+    "label": "California Verbal Learning Test (Part 1)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "cvlt2",
+    "label": "California Verbal Learning Test (Part 2)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "ppt",
+    "label": "Purdue Pegboard Test",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "vftf",
+    "label": "Verbal Fluency Test - Letter F",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "vfta",
+    "label": "Verbal Fluency Test - Letter A",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "vfts",
+    "label": "Verbal Fluency Test - Letter S",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "vftfrt",
+    "label": "Verbal Fluency Test - Fruit",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "vftanml",
+    "label": "Verbal Fluency Test - Animals",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "vftveg",
+    "label": "Verbal Fluency Test - Vegetables",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "dsst",
+    "label": "WAIS Digit Symbol Substitution Test",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "similarities",
+    "label": "WAIS-R Similarities",
+    "source": "Form"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "crt",
+    "label": "Card Rotations Test Total Score (correct - incorrect)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "cesd",
+    "label": "CES Depressive Symptoms (CESD) Score",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "cesd16",
+    "label": "CESD Symptoms of Depression (CESD 16+)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Cognition",
+    "name": "cesd20",
+    "label": "CESD Significant Symptoms of Depression (CESD 20+)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "PAD",
+    "label": "Peripheral Artery Disease",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "bpjnc7",
+    "label": "JNC 7 BP Classification",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "htn",
+    "label": "Hypertension Status",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "obesity4cat",
+    "label": "CDC Obesity Classification (4-category)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "obesity6cat",
+    "label": "CDC Obesity Classification (6-category)",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "ldl5cat",
+    "label": "ATP III Fasting LDL Categorization",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "hdl3cat",
+    "label": "ATP III Fasting HDL Categorization",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "trigs4cat",
+    "label": "ATP III Fasting Triglyceride Categorization",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "glucose3cat",
+    "label": "Diabetes Categorization (Norm, At Risk, Diab)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "diab3cat",
+    "label": "Diabetes Categorization (Norm, At Risk, Diab)",
+    "source": "Derived"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "mi_hx",
+    "label": "Self-Reported History of MI",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "hf_hx",
+    "label": "Self-Reported History of HF",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "angina_hx",
+    "label": "Self-Reported History of Angina",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "cld_hx",
+    "label": "Self-Reported History of CLD",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "asthma_hx",
+    "label": "Self-Reported History of Asthma",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "liverdz_hx",
+    "label": "Self-Reported History of Liver Disease",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "hepatitis_hx",
+    "label": "Self-Reported History of Hepatitis",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "hiv_hx",
+    "label": "Self-Reported History of HIV/AIDS",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "ckd_hx",
+    "label": "Self-Reported History of CKD",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "stroke_hx",
+    "label": "Self-Reported History of Stroke",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "tia_hx",
+    "label": "Self-Reported History of TIA",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "pn_hx",
+    "label": "Self-Reported History of PN",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "htn_hx",
+    "label": "Self-Reported History of HTN",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "dm_hx",
+    "label": "Self-Reported History of DM",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "hld_hx",
+    "label": "Self-Reported History of HLD",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "cancer_hx",
+    "label": "Self-Reported History of Cancer",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "arthritis_hx",
+    "label": "Self-Reported History of Arthritis",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "stenosis_hx",
+    "label": "Self-Reported History of Spinal Stenosis",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "osteoporosis_hx",
+    "label": "Self-Reported History of Osteoporosis",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "ctd_hx",
+    "label": "Self-Reported History of CTD",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "parkinson_hx",
+    "label": "Self-Reported History of Parkinson",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "pad_hx",
+    "label": "Self-Reported History of PAD",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "varicose_hx",
+    "label": "Self-Reported History of Varicose Veins",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "ulcer_hx",
+    "label": "Self-Reported History of Ulcer",
+    "source": "Form"
+  },
+  {
+    "sheet": "Comorbidities",
+    "name": "dep_hx",
+    "label": "Self-Reported History of Depression",
+    "source": "Form"
+  }
+]
